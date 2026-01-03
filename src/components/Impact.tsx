@@ -62,7 +62,7 @@ export function Impact({ openModal }: ImpactProps) {
     {
       icon: Globe,
       value: 4,
-      suffix: ' Regions',
+      suffix: 'Regions',
       label: 'Global Hiring',
       description: 'USA, APAC, LATAM, and Canada talent acquisition',
       color: 'from-cyan-500 to-teal-500',
