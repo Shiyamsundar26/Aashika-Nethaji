@@ -33,7 +33,7 @@ function Counter({ end, duration = 2, suffix = '' }: { end: number; duration?: n
   }, [isInView, end, duration]);
 
   return (
-    <div ref={ref} className="text-6xl md:text-7xl font-serif bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent">
+    <div ref={ref} className="text-5xl md:text-6xl font-serif bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent">
       {count}{suffix}
     </div>
   );
